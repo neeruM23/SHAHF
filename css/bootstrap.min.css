@@ -129,6 +129,33 @@ h6 {
 h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
+
+@media screen and (max-width: 572px) {
+  .navbar-brand span {
+    font-size: 16px;
+  }
+  .navbar-toggler-icon {
+    padding-left: 100%;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .navbar-brand span {
+    font-size: 13px;
+  }
+
+  .navbar-brand span small {
+    font-size: 9px;
+  }
+  .our_story_video {
+    width: 100%;
+    height: auto;
+  }
+  .navbar-brand img {
+    width: 50px;
+  }
+}
+
 @media (min-width: 1200px) {
   .h1,
   h1 {

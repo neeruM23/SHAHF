@@ -323,8 +323,13 @@ figure {
 }
 img,
 svg {
-  vertical-align: middle;
+  vertical-align: text-top;
+  /* width: 200px;
+  height: 200px;
+  margin: 26px;
+  padding: 10px; */
 }
+
 table {
   caption-side: bottom;
   border-collapse: collapse;
@@ -2154,6 +2159,12 @@ textarea.form-control-lg {
   min-height: 1.5rem;
   padding-left: 1.5em;
   margin-bottom: 0.125rem;
+}
+.form-check .form-check-label img {
+  width: 200px;
+  height: 200px;
+  margin: 26px;
+  padding: 10px;
 }
 .form-check .form-check-input {
   float: left;

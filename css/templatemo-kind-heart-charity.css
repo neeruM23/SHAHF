@@ -1281,7 +1281,7 @@ blockquote::before {
   width: 100%;
   display: inline-block;
   text-align: center;
-  margin-top: 4%;
+  margin-top: 1%;
 }
 
 .plan-container {
@@ -1297,7 +1297,7 @@ blockquote::before {
   padding: 10px;
   background-color: #fff;
   color: #697e91;
-  max-width: 300px;
+  max-width: 360px;
 }
 
 .plan .info {
@@ -1329,7 +1329,7 @@ blockquote::before {
   background-color: #ecf0ff;
   border-radius: 12px;
   position: relative;
-  min-height: 675px;
+  min-height: 700px;
 }
 
 .plan .pricing {
@@ -1371,6 +1371,7 @@ blockquote::before {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  margin-left: -20px;
 }
 
 .plan .features li {

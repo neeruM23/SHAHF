@@ -1329,7 +1329,7 @@ blockquote::before {
   background-color: #ecf0ff;
   border-radius: 12px;
   position: relative;
-  min-height: 700px;
+  min-height: 590px;
 }
 
 .plan .pricing {
@@ -1359,6 +1359,7 @@ blockquote::before {
 }
 
 .plan .title + * {
+  font-size: 15px;
   margin-top: 0.75rem;
   color: #000000;
 }
@@ -1378,6 +1379,10 @@ blockquote::before {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+.plan .features li span {
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .plan .features li + * {

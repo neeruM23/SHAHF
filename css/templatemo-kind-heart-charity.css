@@ -1049,6 +1049,39 @@ blockquote::before {
   width: 50px;
   height: 50px;
 }
+@media screen and (max-width: 389px) {
+  #testimonial-carousel .carousel-indicators {
+    position: relative;
+    top: 150px;
+    bottom: auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+
+  #testimonial-carousel .carousel-indicators li {
+    text-indent: inherit;
+    background: transparent;
+    margin: 0 10px;
+  }
+
+  #testimonial-carousel .carousel-indicators li,
+  #testimonial-carousel .carousel-indicators li::before {
+    width: 45px;
+    height: 45px;
+  }
+
+  #testimonial-carousel .carousel-indicators .avatar-image {
+    width: 40px;
+    height: 30px;
+  }
+
+  #testimonial-carousel .carousel-indicators .active,
+  #testimonial-carousel .carousel-indicators .active .avatar-image {
+    background: transparent;
+    width: 45px;
+    height: 35px;
+  }
+}
 
 /*---------------------------------------
   CONTACT               

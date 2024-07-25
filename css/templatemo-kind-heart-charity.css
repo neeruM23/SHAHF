@@ -1135,6 +1135,9 @@ blockquote::before {
 .custom-form .form-check-group {
   margin-bottom: 20px;
 }
+/* .razorpay-button {
+  margin: 10px;
+} */
 
 .donate-form .form-check-group-donation-frequency {
   padding-right: 0;

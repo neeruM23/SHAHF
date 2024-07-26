@@ -1129,15 +1129,36 @@ blockquote::before {
 }
 
 .custom-form label {
+  margin-left: -18px;
+  margin-top: 15px;
   margin-bottom: 10px;
 }
 
 .custom-form .form-check-group {
   margin-bottom: 20px;
 }
-/* .razorpay-button {
-  margin: 10px;
-} */
+
+.payment-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.razorpay-button {
+  margin-left: -60px;
+  display: flex;
+  width: 57%;
+  justify-content: center;
+  align-items: center;
+}
+
+.paypal-button {
+  margin-top: 10px;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .donate-form .form-check-group-donation-frequency {
   padding-right: 0;

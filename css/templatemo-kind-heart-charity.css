@@ -1142,19 +1142,22 @@ blockquote::before {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row; /* Make buttons stack vertically */
+  padding-right: 100px;
 }
+
 .razorpay-button {
-  margin-left: -60px;
+  margin-left: 0; /* Remove left margin for smaller screens */
+  margin-bottom: 10px; /* Add margin to separate buttons */
   display: flex;
-  width: 57%;
+  width: 90%; /* Make the button wider */
   justify-content: center;
   align-items: center;
 }
 
 .paypal-button {
-  margin-top: 10px;
   height: 45px;
-  width: 100%;
+  width: 90%; /* Make the button wider */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1875,5 +1878,18 @@ blockquote::before {
 
   .donate-form {
     padding: 25px;
+  }
+  .payment-buttons {
+    flex-direction: column;
+    padding-right: 0px;
+  }
+  .razorpay-button,
+  .payment-buttons {
+    width: 100%; /* Make buttons full width for small screens */
+    margin-left: 0; /* Ensure no left margin */
+    margin-bottom: 10px; /* Add margin to separate buttons */
+  }
+  .paypal-button {
+    margin-bottom: 0px; /* Add margin to separate buttons */
   }
 }

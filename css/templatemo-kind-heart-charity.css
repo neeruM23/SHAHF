@@ -1157,7 +1157,7 @@ blockquote::before {
 
 .paypal-button {
   height: 45px;
-  width: 90%; /* Make the button wider */
+  width: 100%; /* Make the button wider */
   display: flex;
   justify-content: center;
   align-items: center;

@@ -162,6 +162,10 @@ a:hover {
   color: var(--primary-color);
 }
 
+a:active {
+  color: var(--primary-color);
+}
+
 b,
 strong {
   font-weight: var(--font-weight-bold);

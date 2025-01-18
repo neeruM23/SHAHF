@@ -1105,11 +1105,14 @@ blockquote::before {
   padding-top: 40px;
 }
 
+.main-class {
+  margin-top: 3rem;
+}
 .contact-image-wrap {
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   margin-top: 20px;
   margin-bottom: 30px;
-  padding-bottom: 30px;
+  /*padding-bottom: 30px;*/
   width: 100%;
 }
 
